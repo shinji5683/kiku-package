@@ -1,0 +1,12 @@
+{
+  "name": "kiku-package",
+  "displayName": "Kiku (聞く) - Zero-Jargon Interview & GO-Sign Gate",
+  "version": "1.0.0",
+  "description": "Zero-jargon interactive hearing & alignment package (/kiku & /kiku-on). Keeps original source code (e.g., Kotlin) intact without code-laundering while interviewing beginners in plain everyday language and strictly locking code execution until an explicit human GO-sign is given.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "/kiku やりたいことを1つずつ優しい言葉で聞いて、GOを出すまで実装しないで",
+    "/kiku-on 常駐ヒアリング＆答え合わせロックモードをオンにして",
+    "専門用語を使わずに、今のアプリの仕組みとこれから作る機能を答え合わせしよう"
+  ]
+}
