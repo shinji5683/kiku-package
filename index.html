@@ -46,6 +46,24 @@
       font-weight: bold;
       text-decoration: underline;
     }
+    .btn-download {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      text-align: center;
+      background-color: var(--green);
+      color: #051B11;
+      font-size: 1.2rem;
+      font-weight: 800;
+      padding: 18px 24px;
+      border-radius: 12px;
+      text-decoration: none;
+      margin: 14px 0;
+      border: 2px solid #34D399;
+    }
+    .btn-download:hover {
+      background-color: #34D399;
+    }
     code, pre {
       background: #000000;
       color: #34D399;
@@ -84,8 +102,18 @@
 
   <main role="main">
     <section aria-labelledby="install-heading">
-      <h2 id="install-heading">1. Quick Installation (インストール方法)</h2>
-      <p>Antigravity CLI または GitHub リポジトリURLからワンコマンドで導入できます：</p>
+      <h2 id="install-heading">1. 初心者向けワンクリック自動導入（ZIP解凍・コマンド入力一切不要！）</h2>
+      <p><strong>方法①：Windows用ワンクリック自動インストーラー（おすすめ）</strong><br>
+      下のボタンを押して <code>Kiku-Plugin-Setup.exe</code> をダウンロードし、開いて「はい」を押すだけで、Google Antigravity へ全自動で組み込まれます（ZIPの解凍やフォルダ移動、Git・PowerShellコマンドの入力は一切不要です）。</p>
+      <a class="btn-download" href="https://github.com/shinji5683/kiku-package/releases/latest/download/Kiku-Plugin-Setup.exe">
+        Kiku ワンクリック自動インストーラー（Kiku-Plugin-Setup.exe）を直接ダウンロード
+      </a>
+
+      <p style="margin-top: 1.5rem;"><strong>方法②：AntigravityのAIに「一言伝えるだけ」で自動導入</strong><br>
+      お使いのAntigravityのチャット欄に、以下の1文をそのまま貼り付けて送信するだけで、AIが全自動でダウンロード＆有効化してくれます：</p>
+      <pre><code>https://github.com/shinji5683/kiku-package の kiku-package プラグインを私の Antigravity に自動でインストールして有効化して！</code></pre>
+
+      <p style="margin-top: 1.5rem;"><strong>方法③：Google Antigravity マーケットプレイス / CLI から導入</strong></p>
       <pre><code>agy plugin install https://github.com/shinji5683/kiku-package</code></pre>
     </section>
 
@@ -102,7 +130,7 @@
       <ul>
         <li><a href="https://github.com/shinji5683/kiku-package/blob/main/DOCUMENTATION.md">Official Technical &amp; User Documentation (DOCUMENTATION.md)</a></li>
         <li><a href="https://github.com/shinji5683/kiku-package/blob/main/AGREEMENT.md">End-User License Agreement &amp; Anti-Code-Laundering Terms (AGREEMENT.md)</a></li>
-        <li><a href="https://github.com/shinji5683/kiku-package">GitHub Repository (shinji5683/kiku-package)</a></li>
+        <li><a href="https://github.com/shinji5683/kiku-package/releases">GitHub Releases — Kiku-Plugin-Setup.exe (shinji5683/kiku-package/releases)</a></li>
         <li><a href="https://shinji5683.github.io/#software-section">Shinji Sakiyama Official Website — Software Suite Section (Serena Screen Reader, Serena Mail &amp; Kiku)</a></li>
       </ul>
     </section>
